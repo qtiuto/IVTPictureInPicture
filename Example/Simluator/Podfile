@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+source "git@code.byted.org:iOS_Library/privatethird_source_repo.git"
+source "git@code.byted.org:iOS_Library/toutiao_source_repo.git"
+source "git@code.byted.org:iOS_Library/privatethird_binary_repo.git"
+source "git@code.byted.org:iOS_Library/publicthird_source_repo.git"
+
+use_modular_headers!
+
+target 'PipTestSimulator' do
+  project '../PipTestSimulator.xcodeproj'
+  workspace 'PipTestSimulator.xcworkspace'
+  pod 'TTPictureInPicture', path:'../../'
+end

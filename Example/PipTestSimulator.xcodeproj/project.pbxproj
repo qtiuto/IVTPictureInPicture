@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20855912CE51F2E0E08EB02A /* libPods-PipTestSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B351772707DAF7567999F0D2 /* libPods-PipTestSimulator.a */; };
+		609CABF326E7171E005F6163 /* trailer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 609CABF226E71704005F6163 /* trailer.mp4 */; };
+		609F7E1527A83A3500A1D328 /* next.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 609F7E1427A83A2500A1D328 /* next.mp4 */; };
+		609F7E3527AD23AA00A1D328 /* three.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 609F7E3427AD23A700A1D328 /* three.mp4 */; };
+		60CB78DF26A57468002A9C88 /* PipTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB78DE26A57468002A9C88 /* PipTestApp.swift */; };
+		60CB78E126A57468002A9C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB78E026A57468002A9C88 /* ContentView.swift */; };
+		60CB78E326A5746A002A9C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CB78E226A5746A002A9C88 /* Assets.xcassets */; };
+		60CB78E626A5746A002A9C88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CB78E526A5746A002A9C88 /* Preview Assets.xcassets */; };
+		60CB78F126A5746B002A9C88 /* PipTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB78F026A5746B002A9C88 /* PipTestTests.swift */; };
+		60CB78FC26A5746B002A9C88 /* PipTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB78FB26A5746B002A9C88 /* PipTestUITests.swift */; };
+		60E107BF296EEEDD00EB431C /* PipPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E107BE296EEEDD00EB431C /* PipPlayerControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60CB78ED26A5746B002A9C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CB78D326A57468002A9C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CB78DA26A57468002A9C88;
+			remoteInfo = PipTest;
+		};
+		60CB78F826A5746B002A9C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CB78D326A57468002A9C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CB78DA26A57468002A9C88;
+			remoteInfo = PipTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CFC43385BB3380D36902463 /* Pods-PipTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.release.xcconfig"; path = "Target Support Files/Pods-PipTest/Pods-PipTest.release.xcconfig"; sourceTree = "<group>"; };
+		609CABF226E71704005F6163 /* trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer.mp4; sourceTree = "<group>"; };
+		609F7E1327A5B46200A1D328 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		609F7E1427A83A2500A1D328 /* next.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.mp4; sourceTree = "<group>"; };
+		609F7E3427AD23A700A1D328 /* three.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = three.mp4; sourceTree = "<group>"; };
+		60C8CC2629B70C3A006913CC /* PipTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PipTest copy-Info.plist"; path = "/Users/osl/Desktop/iOSTest/TTPictureInPicture/Example/PipTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		60CB78DB26A57468002A9C88 /* PipTestSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PipTestSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CB78DE26A57468002A9C88 /* PipTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipTestApp.swift; sourceTree = "<group>"; };
+		60CB78E026A57468002A9C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60CB78E226A5746A002A9C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60CB78E526A5746A002A9C88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60CB78E726A5746A002A9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CB78EC26A5746B002A9C88 /* PipTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CB78F026A5746B002A9C88 /* PipTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipTestTests.swift; sourceTree = "<group>"; };
+		60CB78F226A5746B002A9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CB78F726A5746B002A9C88 /* PipTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PipTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CB78FB26A5746B002A9C88 /* PipTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipTestUITests.swift; sourceTree = "<group>"; };
+		60CB78FD26A5746B002A9C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E107BE296EEEDD00EB431C /* PipPlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipPlayerControlView.swift; sourceTree = "<group>"; };
+		A815E64EEA4B15DAD0DF84C9 /* Pods-PipTestSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestSimulator.debug.xcconfig"; path = "../Simluator/Pods/Target Support Files/Pods-PipTestSimulator/Pods-PipTestSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+		B351772707DAF7567999F0D2 /* libPods-PipTestSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipTestSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3DA40EFB57C3DEC89B7120 /* Pods-PipTestSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestSimulator.release.xcconfig"; path = "../Simluator/Pods/Target Support Files/Pods-PipTestSimulator/Pods-PipTestSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		D4821F430481EAF34DB8A92A /* Pods-PipTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.debug.xcconfig"; path = "Target Support Files/Pods-PipTest/Pods-PipTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60CB78D826A57468002A9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20855912CE51F2E0E08EB02A /* libPods-PipTestSimulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78E926A5746B002A9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78F426A5746B002A9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CB78D226A57468002A9C88 = {
+			isa = PBXGroup;
+			children = (
+				60CB78DD26A57468002A9C88 /* PipTest */,
+				60CB78EF26A5746B002A9C88 /* PipTestTests */,
+				60CB78FA26A5746B002A9C88 /* PipTestUITests */,
+				60CB78DC26A57468002A9C88 /* Products */,
+				C884E0D96AC30BC15699EBE9 /* Pods */,
+				BFBAB72A6E36116F2A4135E8 /* Frameworks */,
+				60C8CC2629B70C3A006913CC /* PipTest copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		60CB78DC26A57468002A9C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CB78DB26A57468002A9C88 /* PipTestSimulator.app */,
+				60CB78EC26A5746B002A9C88 /* PipTestTests.xctest */,
+				60CB78F726A5746B002A9C88 /* PipTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CB78DD26A57468002A9C88 /* PipTest */ = {
+			isa = PBXGroup;
+			children = (
+				609F7E3427AD23A700A1D328 /* three.mp4 */,
+				609F7E1427A83A2500A1D328 /* next.mp4 */,
+				60CB78DE26A57468002A9C88 /* PipTestApp.swift */,
+				60CB78E026A57468002A9C88 /* ContentView.swift */,
+				60CB78E226A5746A002A9C88 /* Assets.xcassets */,
+				60CB78E726A5746A002A9C88 /* Info.plist */,
+				609CABF226E71704005F6163 /* trailer.mp4 */,
+				60CB78E426A5746A002A9C88 /* Preview Content */,
+				609F7E1327A5B46200A1D328 /* BridgeHeader.h */,
+				60E107BE296EEEDD00EB431C /* PipPlayerControlView.swift */,
+			);
+			path = PipTest;
+			sourceTree = "<group>";
+		};
+		60CB78E426A5746A002A9C88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60CB78E526A5746A002A9C88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60CB78EF26A5746B002A9C88 /* PipTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				60CB78F026A5746B002A9C88 /* PipTestTests.swift */,
+				60CB78F226A5746B002A9C88 /* Info.plist */,
+			);
+			path = PipTestTests;
+			sourceTree = "<group>";
+		};
+		60CB78FA26A5746B002A9C88 /* PipTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60CB78FB26A5746B002A9C88 /* PipTestUITests.swift */,
+				60CB78FD26A5746B002A9C88 /* Info.plist */,
+			);
+			path = PipTestUITests;
+			sourceTree = "<group>";
+		};
+		BFBAB72A6E36116F2A4135E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B351772707DAF7567999F0D2 /* libPods-PipTestSimulator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C884E0D96AC30BC15699EBE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4821F430481EAF34DB8A92A /* Pods-PipTest.debug.xcconfig */,
+				3CFC43385BB3380D36902463 /* Pods-PipTest.release.xcconfig */,
+				A815E64EEA4B15DAD0DF84C9 /* Pods-PipTestSimulator.debug.xcconfig */,
+				CC3DA40EFB57C3DEC89B7120 /* Pods-PipTestSimulator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60CB78DA26A57468002A9C88 /* PipTestSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CB790026A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestSimulator" */;
+			buildPhases = (
+				6D8331FC762A797E4628CC4D /* [CP] Check Pods Manifest.lock */,
+				60CB78D726A57468002A9C88 /* Sources */,
+				60CB78D826A57468002A9C88 /* Frameworks */,
+				60CB78D926A57468002A9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PipTestSimulator;
+			productName = PipTest;
+			productReference = 60CB78DB26A57468002A9C88 /* PipTestSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60CB78EB26A5746B002A9C88 /* PipTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CB790326A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestTests" */;
+			buildPhases = (
+				60CB78E826A5746B002A9C88 /* Sources */,
+				60CB78E926A5746B002A9C88 /* Frameworks */,
+				60CB78EA26A5746B002A9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60CB78EE26A5746B002A9C88 /* PBXTargetDependency */,
+			);
+			name = PipTestTests;
+			productName = PipTestTests;
+			productReference = 60CB78EC26A5746B002A9C88 /* PipTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60CB78F626A5746B002A9C88 /* PipTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CB790626A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestUITests" */;
+			buildPhases = (
+				60CB78F326A5746B002A9C88 /* Sources */,
+				60CB78F426A5746B002A9C88 /* Frameworks */,
+				60CB78F526A5746B002A9C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60CB78F926A5746B002A9C88 /* PBXTargetDependency */,
+			);
+			name = PipTestUITests;
+			productName = PipTestUITests;
+			productReference = 60CB78F726A5746B002A9C88 /* PipTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60CB78D326A57468002A9C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					60CB78DA26A57468002A9C88 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					60CB78EB26A5746B002A9C88 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 60CB78DA26A57468002A9C88;
+					};
+					60CB78F626A5746B002A9C88 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 60CB78DA26A57468002A9C88;
+					};
+				};
+			};
+			buildConfigurationList = 60CB78D626A57468002A9C88 /* Build configuration list for PBXProject "PipTestSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60CB78D226A57468002A9C88;
+			productRefGroup = 60CB78DC26A57468002A9C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60CB78DA26A57468002A9C88 /* PipTestSimulator */,
+				60CB78EB26A5746B002A9C88 /* PipTestTests */,
+				60CB78F626A5746B002A9C88 /* PipTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60CB78D926A57468002A9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB78E626A5746A002A9C88 /* Preview Assets.xcassets in Resources */,
+				60CB78E326A5746A002A9C88 /* Assets.xcassets in Resources */,
+				609F7E3527AD23AA00A1D328 /* three.mp4 in Resources */,
+				609F7E1527A83A3500A1D328 /* next.mp4 in Resources */,
+				609CABF326E7171E005F6163 /* trailer.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78EA26A5746B002A9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78F526A5746B002A9C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D8331FC762A797E4628CC4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PipTestSimulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60CB78D726A57468002A9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB78E126A57468002A9C88 /* ContentView.swift in Sources */,
+				60CB78DF26A57468002A9C88 /* PipTestApp.swift in Sources */,
+				60E107BF296EEEDD00EB431C /* PipPlayerControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78E826A5746B002A9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB78F126A5746B002A9C88 /* PipTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60CB78F326A5746B002A9C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CB78FC26A5746B002A9C88 /* PipTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60CB78EE26A5746B002A9C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CB78DA26A57468002A9C88 /* PipTestSimulator */;
+			targetProxy = 60CB78ED26A5746B002A9C88 /* PBXContainerItemProxy */;
+		};
+		60CB78F926A5746B002A9C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CB78DA26A57468002A9C88 /* PipTestSimulator */;
+			targetProxy = 60CB78F826A5746B002A9C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60CB78FE26A5746B002A9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60CB78FF26A5746B002A9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60CB790126A5746B002A9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A815E64EEA4B15DAD0DF84C9 /* Pods-PipTestSimulator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PipTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S4Z73Z9GP;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BDAlogProtocol_POD_VERSION=@\\\"9999_1.2.2\\\"",
+				);
+				INFOPLIST_FILE = PipTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PipTest/BridgeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60CB790226A5746B002A9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3DA40EFB57C3DEC89B7120 /* Pods-PipTestSimulator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PipTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 8S4Z73Z9GP;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BDAlogProtocol_POD_VERSION=@\\\"9999_1.2.2\\\"",
+				);
+				INFOPLIST_FILE = PipTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/PipTest/BridgeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60CB790426A5746B002A9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PipTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PipTest.app/PipTest";
+			};
+			name = Debug;
+		};
+		60CB790526A5746B002A9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PipTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PipTest.app/PipTest";
+			};
+			name = Release;
+		};
+		60CB790726A5746B002A9C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PipTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PipTest;
+			};
+			name = Debug;
+		};
+		60CB790826A5746B002A9C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PipTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.osl.PipTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PipTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60CB78D626A57468002A9C88 /* Build configuration list for PBXProject "PipTestSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB78FE26A5746B002A9C88 /* Debug */,
+				60CB78FF26A5746B002A9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CB790026A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB790126A5746B002A9C88 /* Debug */,
+				60CB790226A5746B002A9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CB790326A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB790426A5746B002A9C88 /* Debug */,
+				60CB790526A5746B002A9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CB790626A5746B002A9C88 /* Build configuration list for PBXNativeTarget "PipTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CB790726A5746B002A9C88 /* Debug */,
+				60CB790826A5746B002A9C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60CB78D326A57468002A9C88 /* Project object */;
+}
