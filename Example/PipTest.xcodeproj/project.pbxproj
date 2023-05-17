@@ -40,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F2D09F3FA770455F2B0E46 /* Pods-PipTest-PipTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest-PipTestUITests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTest-PipTestUITests/Pods-PipTest-PipTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1A0682712FAB888A5DA19CF6 /* Pods-PipTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestTests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTestTests/Pods-PipTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3CFC43385BB3380D36902463 /* Pods-PipTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTest/Pods-PipTest.release.xcconfig"; sourceTree = "<group>"; };
+		04F2D09F3FA770455F2B0E46 /* Pods-PipTest-PipTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest-PipTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PipTest-PipTestUITests/Pods-PipTest-PipTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A0682712FAB888A5DA19CF6 /* Pods-PipTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestTests.debug.xcconfig"; path = "Target Support Files/Pods-PipTestTests/Pods-PipTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CFC43385BB3380D36902463 /* Pods-PipTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.release.xcconfig"; path = "Target Support Files/Pods-PipTest/Pods-PipTest.release.xcconfig"; sourceTree = "<group>"; };
 		609CABF226E71704005F6163 /* trailer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer.mp4; sourceTree = "<group>"; };
 		609F7E1327A5B46200A1D328 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		609F7E1427A83A2500A1D328 /* next.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.mp4; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		71E92B4076BB3F53A91CDFF9 /* libPods-PipTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBC7B6AAF2978A1623C3E65 /* libPods-PipTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD6F2242ED1334030A25CE4 /* libPods-PipTest-PipTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PipTest-PipTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4821F430481EAF34DB8A92A /* Pods-PipTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTest/Pods-PipTest.debug.xcconfig"; sourceTree = "<group>"; };
-		D65456BDDC7777868FAC17E8 /* Pods-PipTest-PipTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest-PipTestUITests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTest-PipTestUITests/Pods-PipTest-PipTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F47FE13C0D1C078EC1515522 /* Pods-PipTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestTests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-PipTestTests/Pods-PipTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4821F430481EAF34DB8A92A /* Pods-PipTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest.debug.xcconfig"; path = "Target Support Files/Pods-PipTest/Pods-PipTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D65456BDDC7777868FAC17E8 /* Pods-PipTest-PipTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTest-PipTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-PipTest-PipTestUITests/Pods-PipTest-PipTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F47FE13C0D1C078EC1515522 /* Pods-PipTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PipTestTests.release.xcconfig"; path = "Target Support Files/Pods-PipTestTests/Pods-PipTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
